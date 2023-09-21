@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 400px;
+    border: 3px solid;
+    background-color: black;
+    color: white;
+}
+
+.calc-button-row {
+    /*parent*/
+    border: 3px solid;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 0.5%;
+    /*this is going to bring the lines between the buttons*/
+}
+
+.screen {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px;
+    font-size: 40px;
+    /*we use px to one we use px to all*/
+}
+
+.calc-button {
+    /*kid*/
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 24.5%;
+    /*we want space through the buttons*/
+}
+
+.calc-button:hover {
+    /*we choose the name of the selector and the hover to make it hover*/
+    background-color: #ebebeb;
+}
+
+.calc-button:active {
+    /*active is after you click something but before soemthing happens next, it may never seen*/
+    background-color: #bbbcbb
+}
+
+.double {
+    flex-basis: 49.7%;
+    /*we calculate to check from the whole page the approximately number*/
+
+
+}
+
+.triple {
+    flex-basis: 74.8%;
+
+}
+
+.calc-button:last-child {
+    /*select the last buttons and there is also a firs child*/
+
+    background-color: #df974c;
+    color: white;
+}
+
+.calc-button:last-child:hover {
+    background: color #dfb07e;
+}
+
+.calc-button:last-child:active {
+    background-color: #dd8d37;
+}
+
+.calc-button-row:last-child {
+    padding-bottom: 0;
+}

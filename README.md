@@ -1,11 +1,5 @@
 # Calculator
-![calculator](https://github.com/Nikoleta79/Calculator/assets/141028635/0e9752c4-8f13-4c7b-952b-dcc1e1724726)
-
-
-
 Calculator Web App
-
-
 This is a simple calculator web app built using HTML, CSS, and JavaScript. It allows you to perform basic arithmetic operations like addition, subtraction, multiplication, and division. You can also clear the input and use the backspace button for corrections.
 
 Features
@@ -43,6 +37,9 @@ You can easily customize the calculator's appearance by modifying the calculator
 Contributing
 If you'd like to contribute to this project, feel free to submit a pull request. Bug fixes, new features, and improvements are welcome.
 
-
 Acknowledgments
 This calculator web app was created as a learning project and was inspired by various online tutorials and examples. Special thanks to the open-source community for providing valuable resources and guidance.
+![calculator](https://github.com/Nikoleta79/Calculator/assets/141028635/0e9752c4-8f13-4c7b-952b-dcc1e1724726)
+
+
+
